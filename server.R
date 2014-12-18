@@ -1,7 +1,6 @@
 library("shiny")
 library("dplyr")
 library("ggplot2")
-#library("scales")
 
 maxTick <- function(x) {
      x <- max(x)
